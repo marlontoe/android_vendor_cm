@@ -104,6 +104,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 
+# frandom support
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/init.d/22frandom:system/etc/init.d/22frandom \
+    vendor/cm/prebuilt/common/etc/xbin/ftest:system/etc/xbin/ftest
+
 # CM-specific init file
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
