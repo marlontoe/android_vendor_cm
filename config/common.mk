@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
 
 # frandom support
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/lib/modules/frandom.ko:system/modules/frandom.ko \
+    vendor/cm/prebuilt/common/lib/modules/frandom.ko:system/lib/modules/frandom.ko \
     vendor/cm/prebuilt/common/etc/init.d/22frandom:system/etc/init.d/22frandom \
     vendor/cm/prebuilt/common/etc/xbin/ftest:system/etc/xbin/ftest
 
