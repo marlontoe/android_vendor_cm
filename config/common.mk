@@ -108,7 +108,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/lib/modules/frandom.ko:system/lib/modules/frandom.ko \
     vendor/cm/prebuilt/common/etc/init.d/22frandom:system/etc/init.d/22frandom \
-    vendor/cm/prebuilt/common/etc/xbin/ftest:system/etc/xbin/ftest
+    vendor/cm/prebuilt/common/xbin/ftest:system/xbin/ftest
+
+# zram support
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/init.d/23zram:system/etc/init.d/23zram
 
 # CM-specific init file
 PRODUCT_COPY_FILES += \
