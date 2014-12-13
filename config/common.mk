@@ -162,7 +162,6 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     LockClock \
     CMUpdater \
-    CMFota \
     CMAccount \
     CMHome
 
